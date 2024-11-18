@@ -78,5 +78,14 @@ export class AppComponent {
     console.log("ngAfterContentInit");
 
   }
+  ngAfterContentChecked(){
+    console.log("ngAfterContentChecked");
+  }
+  ngAfterViewInit(){
+    console.log("ngAfterViewInit")
+  }
+  ngAfterViewChecked(){
+    console.log("ngAfterViewChecked")
+  }
 
 }

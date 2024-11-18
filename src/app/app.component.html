@@ -1,4 +1,4 @@
-<!-- <app-navbar [childData]="parentData" [othrData]="anathrData" (logDataEvent)="logData('aNGULAR')"></app-navbar>
+<app-navbar [childData]="parentData" [othrData]="anathrData" (logDataEvent)="logData('aNGULAR')"></app-navbar>
  <app-navbar></app-navbar>
 <h1>Hello World!!</h1>
 <input type="text" [(ngModel)]="name">
@@ -28,7 +28,10 @@
 <router-outlet></router-outlet>
 
 
-<br><br><br> -->
-<!-- <app-user></app-user> -->
+<br><br><br>
+<app-user></app-user>
 
-<!-- <app-home></app-home> -->
+<app-home></app-home>
+
+<h1>{{count}}</h1>
+<button (click)="incrementCount()">Increment</button>

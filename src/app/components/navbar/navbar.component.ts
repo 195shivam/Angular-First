@@ -1,6 +1,6 @@
 import { Component,Input, Output ,EventEmitter } from '@angular/core';
 import { AppComponent } from 'src/app/app.component';
-import { ShowpeopleService } from 'src/app/Services/showpeople.service'; 
+import { ShowpeopleService } from 'src/app/Services/showpeople.service';
 
 @Component({
   selector: 'app-navbar',
@@ -18,5 +18,5 @@ user:any;
     this.user=userdata.userData()
     console.log(this.user)
   }
- 
+
 }
