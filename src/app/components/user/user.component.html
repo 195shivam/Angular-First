@@ -1,0 +1,6 @@
+<form #myForm="ngForm" (ngSubmit)="onSubmit(myForm)">
+    <label for="name">Name:</label>
+    <input id="name" name="name" ngModel required>
+  
+    <button type="submit" [disabled]="!myForm.valid">Submit</button>
+  </form>

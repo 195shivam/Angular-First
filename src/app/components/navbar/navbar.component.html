@@ -1,0 +1,12 @@
+
+
+    <div>{{childData}}</div>
+    <div>{{othrData}}</div>
+    <button (click)="logDataEvent.emit('Angular')">LOG</button>
+    <ul>
+        <li *ngFor="let people of user">
+            {{people.name}}
+        </li>
+    </ul>
+    
+  
